@@ -1,0 +1,47 @@
+body {
+    background-image: url("./components/imagens/pattern.png"); 
+}
+
+
+.App {
+    padding-top: 6rem;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(18,18,18) !important;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.navbar-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    display: flex;
+}
+
+.myfooter {
+    display: flex;
+    justify-content: space-around;
+    background-color: (18, 18, 18);
+    color: #ffffff;
+    min-height: 50px;
+}
+
+a#icone-link {
+    flex-wrap: wrap;
+    padding-left: 1em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a#icone-link:hover {
+    text-decoration: none;
+    color: #ef5350;
+}
+
