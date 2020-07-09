@@ -1,3 +1,5 @@
+Descrição do Desafio da Loja Pokemon:
+
 Olá Alô Devsss,
 
 Hoje estamos trazendo aqui mais um desafio, para que vocês possam colocar a mão na massa e praticarem tudo que aprenderam até agora, assim possam solidificar o conhecimento, se aventurando em mais uma prática Yay
@@ -11,12 +13,6 @@ Os Pokémon (sim, esse é o plural) deverão ser mostrados a partir da pokeapi(h
 
  Após requisitar os Pokémon, os preços podem ser definidos aleatoriamente, só esteja preocupado em manter a consistência entre o carrinho lateral e o preço mostrado no catálogo.
 
-
-O time de designers sugeriu como uma loja virtual deveria se aparentar, e queremos ver a sua criatividade em jogo para transformar esse protótipo em algo funcional.
-
-
-
-  Aqui, você consegue ver o protótipo acima no Figma.
 
 Não se assuste! Imaginamos muitas funcionalidades, mas você poderá fazer somente o elencado abaixo. O MVP consiste em:
 
