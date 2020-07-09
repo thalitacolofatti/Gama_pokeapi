@@ -13,18 +13,19 @@ function App(props) {
     const [ listaSFiltro, setListaSF ] = useState([]);
     const [ listaFiltrada, setListaFiltrada ] = useState([]);
     const [ erro, setErro ] = useState(false);
-    const pokepoke = props;
+
 
     useEffect(() => {
         axios.get(pokeApiUrl)
             .then(response => {
                 response.data.results.map(pokemon => {
-                    axios.get(pokeApiUrl)
-                        .then(pokepoke => {
-                            listaSFiltro.push(pokepoke.data);
+                    pokeApiUrl.get(pokeApiUrl.url)
+                        .then(props => {
+                            listaSFiltro.push(props.data);
                             setListaSF([...listaSFiltro]);
                         })
                 });
+                
             })
     }, []);
 
@@ -33,8 +34,8 @@ function App(props) {
         pokeApiUrl.get(`${pokeName}`)
             .then(pokemon => {
                 listaFiltrada.push(pokemon.data);
-                setListaFiltrada(listaFiltrada.filter(pokepoke => {
-                    return pokeName !== '' ? pokepoke.name.includes(pokeName): pokepoke;
+                setListaFiltrada(listaFiltrada.filter(props => {
+                    return pokeName !== '' ? props.name.includes(pokeName): props;
                 }));
                 setErro(false);
             })
@@ -47,7 +48,7 @@ function App(props) {
         <div className="HomeContainer">
             <div className="container-fluid">
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-                    <a href="/Home.js" className="navbar-brand col-sm-3 col-md-2 mr-0 align-items-center"> 
+                    <a href="index.html" className="navbar-brand col-sm-3 col-md-2 mr-0 align-items-center"> 
                         <img className="logo" src={logoLoja} alt="Logo" style={{width:'6em', height:'auto'}}/>
                     </a>
                     <form className="navbar-form navbar-center" >
