@@ -14,17 +14,17 @@ const Container = styled.div`
     -o-user-select: none;
 `;
 import React from 'react'
-import { comprado, pokeComprado } from './../pokemon/PokemonCard'
+//import { comprado, pokeComprado } from './../pokemon/PokemonCard'
 
 export default function Bag() {
-    const [ bag, setBag ] = useState([]);
+    // const [ bag, setBag ] = useState([]);
 
-    const comprado = pokeComprado => {
-        setBag(bag.concat(listaSFiltro[pokeComprado]));
-    }
-    const precoTotal = () => {
-        return bag.reduce((preco, props) => preco + ((props.id)* 100), 0);
-    }
+    // const comprado = pokeComprado => {
+    //     setBag(bag.concat(listaSFiltro[pokeComprado]));
+    // }
+    // const precoTotal = () => {
+    //     return bag.reduce((preco, props) => preco + ((props.id)* 100), 0);
+    // }
 
 
     return (
