@@ -13,7 +13,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <div className="App">
           <Home/>
           <div className="row content">
@@ -60,7 +60,7 @@ class App extends Component {
                 </div>
               </div>
         </div>
-      </Router>
+      </BrowserRouter>
     )
   }
 }
